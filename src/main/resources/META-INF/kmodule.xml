@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule">
+
+    <!--
+        name:指定kbase的名称，可以任意，但是需要唯一
+        packages:指定规则文件的目录，需要根据实际情况填写，否则无法加载到规则文件
+        default:指定当前kbase是否为默认
+    -->
+    <kbase name="myKbaseHelloWorld" packages="rules.HelloWorld" default="true">
+        <!--
+            name:指定ksession的名称，可以任意，但需要唯一
+            default:指定当前session是否为默认
+        -->
+        <ksession name="ks-HelloWorld" default="true"/>
+    </kbase>
+
+
+    <kbase name="isPackage" packages="rules.isPackage">
+        <ksession name="ks-BaseisPackage"/>
+    </kbase>
+    <kbase name="isGlobal" packages="rules.isGlobal">
+        <ksession name="ks-BaseisGlobal"/>
+    </kbase>
+    <kbase name="isQuery" packages="rules.isQuery">
+        <ksession name="ks-BaseisQuery"/>
+    </kbase>
+    <kbase name="isFunction" packages="rules.isFunction">
+        <ksession name="ks-BaseisFunction"/>
+    </kbase>
+
+
+
+
+    <kbase name="myKbaseCstCollection" packages="rules.constraint.isCollection">
+        <ksession name="ks-CstCollection"/>
+    </kbase>
+    <kbase name="myKbaseCstCollectionInsert" packages="rules.constraint.isCollection.insert">
+        <ksession name="ks-CstCollectionInsert" />
+    </kbase>
+
+
+
+
+
+    <kbase name="myKbaseCstContains" packages="rules.constraint.isContains">
+        <ksession name="ks-CstContains"/>
+    </kbase>
+    <kbase name="myKbaseCstMemberOf" packages="rules.constraint.isMemberOf">
+        <ksession name="ks-CstMemberOf"/>
+    </kbase>
+    <kbase name="myKbaseCstMatches" packages="rules.constraint.isMatches">
+        <ksession name="ks-CstMatches"/>
+    </kbase>
+    <kbase name="myKbaseCstSoundslike" packages="rules.constraint.isSoundslike">
+        <ksession name="ks-CstSoundslike"/>
+    </kbase>
+    <kbase name="myKbaseCstStr" packages="rules.constraint.isStr">
+        <ksession name="ks-CstStr"/>
+    </kbase>
+
+
+
+    <kbase name="isNoLoop" packages="rules.attr.isNoLoop">
+        <ksession name="ks-AttrisNoLoop"/>
+    </kbase>
+    <kbase name="isLockNoActive" packages="rules.attr.isLockNoActive">
+        <ksession name="ks-AttrisLockNoActive"/>
+    </kbase>
+    <kbase name="isSalience" packages="rules.attr.isSalience">
+        <ksession name="ks-AttrisSalience"/>
+    </kbase>
+    <kbase name="isEnabled" packages="rules.attr.isEnabled">
+        <ksession name="ks-AttrisEnabled"/>
+    </kbase>
+    <kbase name="isDate" packages="rules.attr.isDate">
+        <ksession name="ks-AttrisDate"/>
+    </kbase>
+    <kbase name="isActivationGroup" packages="rules.attr.isActivationGroup">
+        <ksession name="ks-AttrisActivationGroup"/>
+    </kbase>
+    <kbase name="isAgendaGroup" packages="rules.attr.isAgendaGroup">
+        <ksession name="ks-AttrisAgendaGroup"/>
+    </kbase>
+    <kbase name="isTimer" packages="rules.attr.isTimer">
+        <ksession name="ks-AttrisTimer"/>
+    </kbase>
+
+
+</kmodule>

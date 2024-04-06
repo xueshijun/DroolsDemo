@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/resources/rules" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/rules/constraint" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/ws/soon/test/attr/rulesATimer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/ws/soon/test/attr/rulesActivationGroup.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/ws/soon/test/attr/rulesAgendaGroup.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/ws/soon/test/attr/rulesDate.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/ws/soon/test/attr/rulesEnabled.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/ws/soon/test/attr/rulesLockOnActive.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/ws/soon/test/attr/rulesNoLoop.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/ws/soon/test/attr/rulesSalience.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/ws/soon/test/base/ruleGlobal/RulesGlobal.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/ws/soon/test/base/rulePackage/rulePackage.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/ws/soon/test/base/ruleQuery/RulesQuery.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/ws/soon/test/base/rulesFunction/FunctionStatic.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/ws/soon/test/base/rulesFunction/RulesFunction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/ws/soon/test/constraint/RulesCollection.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/ws/soon/test/constraint/RulesConstraint.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
